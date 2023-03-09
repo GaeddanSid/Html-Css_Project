@@ -1,0 +1,19 @@
+h2 {
+  font-size: 200%;
+}
+
+ul h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#student {
+  margin-top: 10em;
+}
+
+@media (min-width: 980px) {
+  main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

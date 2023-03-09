@@ -1,0 +1,16 @@
+#kontakt {
+  width: 90%;
+  margin-top: 75px;
+}
+
+#karta {
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+}
+
+@media (max-width: 502px) {
+  #kontakt {
+    width: 80%;
+  }
+}

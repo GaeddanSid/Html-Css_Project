@@ -1,0 +1,85 @@
+body {
+  background-color: #0e3961;
+  background-image: url(media/Ristjarn.jpg);
+  background-size: cover;
+}
+
+#fiskekort {
+  height: 440px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  padding: 25px;
+  margin: 10px;
+  margin-top: 20%;
+}
+
+#fiskekort h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.köpknapp {
+  background-color: #036303;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 125%;
+  align-items: center;
+}
+
+.köpknapp:hover {
+  color: #CFE0F8;
+  font-size: 130%;
+  border: solid black;
+}
+
+
+#nyheter {
+  min-width: 230px;
+  height: 780px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  padding: 25px;
+  margin: 10px;
+}
+
+#utskick {
+  /* min-width: 230px; */
+  height: 440px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  padding: 25px;
+  margin: 10px;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+  }
+
+  #nyheter {
+    margin-top: 5%;
+    flex-grow: 2;
+  }
+
+  aside {
+    display: flex;
+  }
+
+  #fiskekort {
+    margin-top: 10%;
+  }
+
+  #utskick {
+    margin-top: 10%;
+  }
+}
